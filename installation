@@ -7,3 +7,4 @@
     Go to localhost:8080 and make sure your server is running. Copy link from URL (from server description, not localhost. It shoul be something with port 7077 or similiar)
     Start Workers using SPARK_HOME_DIR/bin/spark-class org.apache.spark.deploy.worker.Worker spark://IP:PORT where IP:PORT is the URL copied in 6
     Deploy you application to the server: SPARK_HOME_DIR/bin/spark-submit --class "SimpleApp" --master URL target/scala-2.10/simple-project_2.10-1.0.jar
+    paste the spark application jar into sparkhome/jars
